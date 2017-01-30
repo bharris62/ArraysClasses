@@ -32,6 +32,7 @@ public class Main {
         System.out.println("assists = " + team.getAssists() + " points = " + team.getPoints());
         System.out.println("--------------------------------------");
 
+        System.out.println("Output for EasyMath class");
         EasyMath easy = new EasyMath();
         Scanner scanner = new Scanner(System.in);
         //loop until user enters a '-1'
@@ -48,12 +49,14 @@ public class Main {
         System.out.println(easy.getAverage());
         System.out.println("--------------------------------------------");
 
+        System.out.println("Output for Car class");
         Car car = new Car("Honda", "Accord", 2015);
         car.calculateHighwayMileage(55,15);
 
         System.out.println(car);
         System.out.println("--------------------------------");
 
+        System.out.println("Output for classroom class");
         ClassRoom classroom = new ClassRoom("John", 9, true);
 
         classroom.addStudent("Blake");
