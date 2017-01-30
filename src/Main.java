@@ -33,7 +33,7 @@ public class Main {
 //        System.out.println("--------------------------------------");
 
 //        EasyMath easy = new EasyMath();
-//        Scanner scanner = new Scanner(System.in);
+      Scanner scanner = new Scanner(System.in);
 //        //loop until user enters a '-1'
 //        while(true) {
 //            System.out.printf("Enter an int number(-1 to exit): ");
@@ -46,11 +46,20 @@ public class Main {
 //        }
 //        System.out.println(easy.getSum());
 //        System.out.println(easy.getAverage());
+//        System.out.println("--------------------------------------------");
+//
+//        Car car = new Car("Honda", "Accord", 2015);
+//        car.calculateHighwayMileage(55,15);
+//
+//        System.out.println(car);
 
-        Car car = new Car("Honda", "Accord", 2015);
-        car.calculateHighwayMileage(55,15);
+        ClassRoom classroom = new ClassRoom("John", 9, true);
 
-        System.out.println(car);
+        classroom.addStudent("Blake");
+        classroom.addStudent("Matt");
+
+        classroom.getStudent();
+        System.out.println(classroom);
 
 
 
