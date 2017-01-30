@@ -24,7 +24,7 @@ public class Banking {
     }
 
     public void subtractMoney(int money) {
-        if(this.initialBalance - money >=0){
+        if(this.initialBalance - money >= 0){
             this.initialBalance -= money;
         }
     }

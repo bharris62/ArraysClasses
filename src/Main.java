@@ -32,21 +32,25 @@ public class Main {
 //        System.out.println("assists = " + team.getAssists() + " points = " + team.getPoints());
 //        System.out.println("--------------------------------------");
 
-        EasyMath easy = new EasyMath();
-        Scanner scanner = new Scanner(System.in);
-        //loop until user enters a '-1'
-        while(true) {
-            System.out.printf("Enter an int number(-1 to exit): ");
-            int num = Integer.parseInt(scanner.nextLine());
+//        EasyMath easy = new EasyMath();
+//        Scanner scanner = new Scanner(System.in);
+//        //loop until user enters a '-1'
+//        while(true) {
+//            System.out.printf("Enter an int number(-1 to exit): ");
+//            int num = Integer.parseInt(scanner.nextLine());
+//
+//            if(num == -1) {
+//                break;
+//            }
+//            easy.addNumbers(num);
+//        }
+//        System.out.println(easy.getSum());
+//        System.out.println(easy.getAverage());
 
-            if(num == -1) {
-                break;
-            }
-            easy.addNumbers(num);
-        }
-        System.out.println(easy.getSum());
-        System.out.println(easy.getAverage());
+        Car car = new Car("Honda", "Accord", 2015);
+        car.calculateHighwayMileage(55,15);
 
+        System.out.println(car);
 
 
 
