@@ -2,6 +2,9 @@ import java.util.ArrayList;
 
 /**
  * Created by BHarris on 1/30/17.
+ *
+ * This is a basic class that does some basic math.  We will assume the Math class doesn't exist and we are trying to redo
+ * it completely.
  */
 public class EasyMath {
     private int sum;
