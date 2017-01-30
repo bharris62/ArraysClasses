@@ -12,7 +12,7 @@ public class Main {
         System.out.println(bank);
         bank.subtractMoney(3000);
         System.out.println(bank);
-        System.out.println("-----------------------------------");
+        System.out.println("--------------------------------------------");
 
         System.out.println("Output for BasketballTeam class");
         BasketballTeam team = new BasketballTeam("Dogs");
@@ -30,7 +30,7 @@ public class Main {
         team.addAssists(5000);
         team.addPoints(400);
         System.out.println("assists = " + team.getAssists() + " points = " + team.getPoints());
-        System.out.println("--------------------------------------");
+        System.out.println("--------------------------------------------");
 
         System.out.println("Output for EasyMath class");
         EasyMath easy = new EasyMath();
@@ -54,7 +54,7 @@ public class Main {
         car.calculateHighwayMileage(55,15);
 
         System.out.println(car);
-        System.out.println("--------------------------------");
+        System.out.println("--------------------------------------------");
 
         System.out.println("Output for classroom class");
         ClassRoom classroom = new ClassRoom("John", 9, true);
@@ -64,10 +64,6 @@ public class Main {
 
         classroom.getStudent();
         System.out.println(classroom);
-
-
-
-
 
 
     }
